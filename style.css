@@ -69,4 +69,7 @@ body {
 .people-image {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  mix-blend-mode: luminosity;
+  filter: contrast(1.2) opacity(0.8);
+  z-index: 2;
 }
